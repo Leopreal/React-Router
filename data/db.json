@@ -1,0 +1,14 @@
+{
+    "products": [
+      {
+        "name": "teste",
+        "price": "12",
+        "id": "4"
+      },
+      {
+        "name": "capa de chuva",
+        "price": "50.50",
+        "id": "5"
+      } 
+    ]
+  }
