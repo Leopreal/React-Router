@@ -8,7 +8,7 @@ import './Home.css'
 const Home = () => {
   const url = 'http://localhost:3000/products'
 
-  const {data, items, loading, error} = useFetch(url)
+  const {data: items, loading, error} = useFetch(url)
 
   return (
     <div>
@@ -19,7 +19,9 @@ const Home = () => {
         {items && items.map((item) => (
           <li key={item.id}>
             <h2>{item.name}</h2>
-            <p>{item.price} s </p>
+            <p>{item.price}</p>
+            {/* rota dinamica */}
+            <Link to={`/products/${item.id}`}>Detalhes</Link>
           </li>
         ))}
       </ul>
