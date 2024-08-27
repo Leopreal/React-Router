@@ -9,6 +9,11 @@
         "name": "capa de chuva",
         "price": "50.50",
         "id": "5"
+      },
+      {
+        "name": "teclado",
+        "price": "176.50",
+        "id": "2"
       } 
     ]
   }
